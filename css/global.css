@@ -1,0 +1,22 @@
+:root {
+    --color-primary: rgb(48, 197, 210);
+    --color-bg-light: rgb(71, 16, 105);
+    --color-bg-medium: rgb(71, 16, 105);
+    --color-text: white;
+    --color-link-hover: rgb(204, 204, 204);
+    --color-stroke: rgb(139, 139, 139);
+
+    --border-8: 8px;
+}
+
+body {
+    margin: 0;
+    background: var(--color-bg);
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
