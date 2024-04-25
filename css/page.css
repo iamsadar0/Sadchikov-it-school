@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 24px;
 }
 
 .hero__left {
@@ -33,7 +34,45 @@
 }
 
 .hero__right {
-    width: 600px;
+    max-width: 500px;
     border-radius: 50px;
     transform: scaleX(-1);
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__title {
+        text-align: center;
+    }
+
+    .hero__cta {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    .hero__title {
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+    .hero__right {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 10px 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .hero__cta {
+        gap: 16px;
+    }
 }
