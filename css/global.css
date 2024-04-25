@@ -1,12 +1,16 @@
 :root {
     --color-primary: rgb(48, 197, 210);
-    --color-bg-light: rgb(71, 16, 105);
-    --color-bg-medium: rgb(71, 16, 105);
+    --color-primary-hover: rgb(20, 126, 136);
+    --color-bg-light: rgb(102, 47, 136);
+    --color-bg-medium: rgb(68, 0, 108);
     --color-text: white;
     --color-link-hover: rgb(204, 204, 204);
     --color-stroke: rgb(139, 139, 139);
 
+    --gradient: linear-gradient(90deg, #30c5d2 0%, #fff 100%);
     --border-8: 8px;
+    --border-10: 10px;
+    --layout-width: 1172px
 }
 
 

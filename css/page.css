@@ -1,0 +1,39 @@
+.hero {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: var(--color-text);
+}
+
+.hero__title_gradient {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero__cta {
+    display: flex;
+    gap: 32px;
+}
+
+.hero__right {
+    width: 600px;
+    border-radius: 50px;
+    transform: scaleX(-1);
+}
