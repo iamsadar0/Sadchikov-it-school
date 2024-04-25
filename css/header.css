@@ -6,11 +6,12 @@
 
 
 .header__wrapper {
-    max-width: 1220px;
+    max-width: calc(1220px - 48px);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 24px;
 }
 
 .header__logo {
@@ -24,8 +25,30 @@
     align-items: center;
     font-size: 18px;
     line-height: 120%;
-    color: var(--color-text);
     cursor: pointer;
+}
+
+.header_mobile-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    .header__login {
+        display: none;
+    }
+
+    .header_mobile-menu-button {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__logo {
+        max-width: 174px;
+    }
 }
 
 .header__login:hover {
@@ -38,6 +61,13 @@
     list-style-type: none;
     display: flex;
     gap: 40px;
+    margin: 0;
+}
+
+@media (max-width: 960px) {
+    .menu {
+        display: none;
+    }
 }
 
 .menu__item {
