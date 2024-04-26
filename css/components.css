@@ -43,3 +43,27 @@
     }
 
 }
+
+/* Social */
+.social__icons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.social__icons-icon {
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--border-8);
+    padding: 11px;
+    width: 48px;
+    height: 48px;
+}
+
+.social__icons-icon img {
+    max-width: 35px;
+    transform: translate3d(-5px, -5px, 0px);
+}
+
+.social__icons-icon:hover {
+    background-color: var(--color-bg-medium);
+}

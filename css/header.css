@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 
+.header__login img {
+    max-width: 35px;
+}
+
 .header_mobile-menu-button {
     display: none;
     background: none;
