@@ -39,6 +39,10 @@
     transform: scaleX(-1);
 }
 
+.button-more {
+    text-align: center;
+}
+
 @media (max-width: 1200px) {
     .hero {
         display: flex;
