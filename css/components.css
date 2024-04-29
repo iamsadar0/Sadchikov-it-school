@@ -7,7 +7,7 @@
 .section__wrapper {
     max-width: var(--layout-width);
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 75px 24px;
 }
 
 .section__light {
@@ -32,6 +32,7 @@
     border-radius: var(--border-10);
     cursor: pointer;
     display: inline-block;
+    text-align: center;
 }
 
 .button_primary {
@@ -103,6 +104,15 @@
     margin: 0;
     margin-bottom: 15px;
     padding: 0;
+}
+
+@media (max-width: 860px) {
+    .headling__buttom {
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 120%;
+    }
+
 }
 
 .paragraph {
@@ -187,4 +197,15 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--color-text);
+}
+
+@media (max-width: 860px) {
+    .post {
+        flex-direction: column;
+    }
+
+    .post__header {
+        font-size: 21px;
+    }
+
 }
